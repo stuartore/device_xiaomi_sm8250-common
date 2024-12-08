@@ -1,0 +1,18 @@
+android_app_import {
+    name: "Hail",
+    apk: "Hail.apk",
+    privileged: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    presigned: true,
+    preprocessed: true,
+
+    required: ["privapp-permissions_com.aistra.hail.xml"]
+}
+
+prebuilt_etc {
+    name: "privapp-permissions_com.aistra.hail.xml",
+    src: "privapp-permissions.xml",
+    sub_dir: "permissions",
+}

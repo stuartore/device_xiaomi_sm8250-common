@@ -1,0 +1,137 @@
+# Audio
+audio.offload.                                                                                      u:object_r:vendor_audio_prop:s0
+audio.soundtrigger.debug.urser_id                                                                   u:object_r:vendor_audio_prop:s0
+audio_hal.in_period_size                                                                            u:object_r:vendor_audio_prop:s0
+
+# Bluetooth
+persist.vendor.bt.                                                                                  u:object_r:vendor_bluetooth_prop:s0
+persist.vendor.btstack.                                                                             u:object_r:vendor_bluetooth_prop:s0
+
+# Camera
+camera.                                                                                             u:object_r:vendor_camera_prop:s0
+persist.camera.                                                                                     u:object_r:vendor_camera_prop:s0
+persist.vendor.EnableP3ColorSpace                                                                   u:object_r:vendor_camera_prop:s0
+persist.vendor.camera                                                                               u:object_r:vendor_camera_prop:s0
+ro.camera.res.fmq.size                                                                              u:object_r:vendor_camera_prop:s0
+ro.camera.req.fmq.size                                                                              u:object_r:vendor_camera_prop:s0
+ro.vendor.camera.                                                                                   u:object_r:vendor_camera_prop:s0
+vendor.camera.boot_complete                                                                         u:object_r:vendor_camera_prop:s0
+vendor.camera.sensor.                                                                               u:object_r:vendor_camera_prop:s0
+
+# Displayfeature
+ro.vendor.eyecare.threshold                     u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.eyecare.level                         u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.hist.threshold                        u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.histogram.enable                      u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.whitepoint_calibration_enable         u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.df.effect.conflict                    u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.fod.dimlayer.enable                   u:object_r:vendor_displayfeature_prop:s0
+persist.vendor.df.extcolor.proc                 u:object_r:vendor_displayfeature_prop:s0
+vendor.displayfeature.entry.enable              u:object_r:vendor_displayfeature_prop:s0
+persist.vendor.df.color.temp                    u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.colorpick_adjust                      u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.display.type                          u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.xiaomi.bl.poll                        u:object_r:vendor_displayfeature_prop:s0
+persist.vendor.dc_backlight.threshold           u:object_r:vendor_displayfeature_prop:s0
+persist.vendor.dc_backlight.enable              u:object_r:vendor_displayfeature_prop:s0
+persist.vendor.fod.modified.dc_status           u:object_r:vendor_displayfeature_prop:s0
+persist.vendor.light.bit.switch                 u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.all_modes.colorpick_adjust            u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.cabc.enable                           u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.bcbc.enable                           u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.dfps.enable                           u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.smart_dfps.enable                     u:object_r:vendor_displayfeature_prop:s0
+vendor.hbm.enable                               u:object_r:vendor_displayfeature_prop:s0
+persist.vendor.dfps.level                       u:object_r:vendor_displayfeature_prop:s0
+persist.vendor.user.fps                         u:object_r:vendor_displayfeature_prop:s0
+persist.vendor.power.dfps.level                 u:object_r:vendor_displayfeature_prop:s0
+persist.vendor.video.dfps                       u:object_r:vendor_displayfeature_prop:s0
+persist.vendor.video.dfps.level                 u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.display.default_fps                   u:object_r:vendor_displayfeature_prop:s0
+persist.vendor.max.brightness                   u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.soft_backlight.enable                 u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.gcp.enable                            u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.sre                                   u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.standard.video.enable                 u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.hbm_backlight.enable                  u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.display.touch.idle.enable             u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.display.smartpen.idle.enable          u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.video_box.version                     u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.video.decode.only                     u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.localhbm.enable                       u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.fps.switch.thermal                    u:object_r:vendor_displayfeature_prop:s0
+ro.vendor.fps.switch.default                    u:object_r:vendor_displayfeature_prop:s0
+ro.lowbrightness_fod_d_threshold                u:object_r:vendor_displayfeature_prop:s0
+ro.lowbrightness_fod_lux_threshold              u:object_r:vendor_displayfeature_prop:s0
+
+# Fingerprint
+gf.debug.                                                                                           u:object_r:vendor_fingerprint_prop:s0
+persist.sys.fp.                                                                                     u:object_r:vendor_fingerprint_prop:s0
+persist.vendor.fpc.                                                                                 u:object_r:vendor_fingerprint_prop:s0
+persist.vendor.sys.fp.                                                                              u:object_r:vendor_fingerprint_prop:s0
+ro.boot.fpsensor                                                                                    u:object_r:vendor_fingerprint_prop:s0
+ro.hardware.fp                                                                                      u:object_r:vendor_fingerprint_prop:s0
+sys.panel.display                                                                                   u:object_r:vendor_fingerprint_prop:s0
+sys.panel.touch_vendor                                                                              u:object_r:vendor_fingerprint_prop:s0
+vendor.fps_hal.                                                                                     u:object_r:vendor_fingerprint_prop:s0
+
+# Global
+ro.boot.factorybuild                                                                                u:object_r:vendor_public_vendor_default_prop:s0
+ro.boot.hwversion                                                                                   u:object_r:vendor_public_vendor_default_prop:s0
+
+# IMEI
+persist.radio.imei                                                                                  u:object_r:vendor_deviceid_prop:s0
+persist.radio.meid                                                                                  u:object_r:vendor_deviceid_prop:s0
+ro.ril.miui.imei                                                                                    u:object_r:vendor_deviceid_prop:s0
+ro.ril.oem.imei                                                                                     u:object_r:vendor_deviceid_prop:s0
+ro.ril.oem.meid                                                                                     u:object_r:vendor_deviceid_prop:s0
+ro.vendor.oem.imei                                                                                  u:object_r:vendor_deviceid_prop:s0
+ro.vendor.oem.imei1                                                                                 u:object_r:vendor_deviceid_prop:s0
+ro.vendor.oem.imei2                                                                                 u:object_r:vendor_deviceid_prop:s0
+ro.vendor.oem.meid                                                                                  u:object_r:vendor_deviceid_prop:s0
+
+# hyperOS prop protection level config
+ro.mi.os.                                                                                           u:object_r:exported_system_prop:s0
+
+# Serial Number OEM Props
+ro.vendor.oem.sno                                                                                   u:object_r:vendor_sno_prop:s0
+ro.vendor.oem.psno                                                                                  u:object_r:vendor_sno_prop:s0
+
+# Iwlan
+#persist.vendor.iwlan.logging.logcat                                                                 u:object_r:vendor_cnd_vendor_prop:s0
+
+# Mlipay
+persist.vendor.sys.pay                                                                              u:object_r:vendor_tee_listener_prop:s0
+persist.vendor.sys.pay.fido                                                                         u:object_r:vendor_payment_security_prop:s0
+persist.vendor.sys.pay.fido2                                                                        u:object_r:vendor_payment_security_prop:s0
+persist.vendor.sys.pay.ifaa                                                                         u:object_r:vendor_payment_security_prop:s0
+vendor.sys.rpmb_state                                                                               u:object_r:vendor_payment_security_prop:s0
+persist.vendor.sys.pay.widevine                                                                     u:object_r:vendor_payment_security_prop:s0
+vendor.sys.feature_state                                                                            u:object_r:vendor_payment_security_prop:s0
+persist.vendor.sys.pay.soter                                                                        u:object_r:vendor_payment_security_prop:s0
+persist.vendor.sys.provision.status                                                                 u:object_r:vendor_payment_security_prop:s0
+
+# Motor
+persist.vendor.motor.                                                                               u:object_r:vendor_motor_prop:s0
+
+# Panel Info
+vendor.panel.                                                                                       u:object_r:vendor_display_prop:s0
+
+# RIL
+ro.vendor.ril                                                                                       u:object_r:vendor_public_vendor_default_prop:s0
+
+# Radio
+persist.radio.VT_HYBRID_ENABLE                                                                      u:object_r:vendor_radio_prop:s0
+persist.radio.NO_STAPA                                                                              u:object_r:vendor_radio_prop:s0
+
+# Sensor
+invn.hal.                                                                                           u:object_r:vendor_sensors_prop:s0
+persist.sensor.                                                                                     u:object_r:vendor_sensors_prop:s0
+
+# Thermal
+persist.sys.thermal.config                                                                          u:object_r:vendor_thermal_normal_prop:s0
+sys.thermal.                                                                                        u:object_r:vendor_thermal_normal_prop:s0
+vendor.sys.thermal.                                                                                 u:object_r:vendor_thermal_normal_prop:s0
+
+# Misc
+persist.hydra.mem_trace	                                                                            u:object_r:exported_system_prop:s0
