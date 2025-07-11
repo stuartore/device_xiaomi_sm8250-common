@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020-2022 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Popup camera settings -->
+    <string name="popup_led_title">Camera LED</string>
+    <string name="popup_led_summary">Show LED light when the front camera appears and retracts</string>
+    <string name="popup_title">Front camera sound effects</string>
+    <string name="popup_title_muqin">Xylophone</string>
+    <string name="popup_title_yingyan">Condor</string>
+    <string name="popup_title_mofa">Magic</string>
+    <string name="popup_title_jijia">Mecha</string>
+    <string name="popup_title_chilun">Gearwheel</string>
+    <string name="popup_title_cangmen">Cabin door</string>
+
+    <!-- Popup camera strings -->
+    <string name="popup_camera_tip">Warning</string>
+    <string name="popup_camera_takeback_failed_times_calibrate">Couldn\'t close front camera multiple times. Try calibrating the camera.</string>
+    <string name="popup_camera_popup_failed_times_calibrate">Couldn\'t open front camera multiple times. Try calibrating the camera.</string>
+    <string name="popup_camera_calibrate_running">Front camera cannot be used during calibration.</string>
+    <string name="popup_camera_calibrate_now">Calibrate</string>
+    <string name="popup_camera_calibrate_failed">Couldn\'t calibrate</string>
+    <string name="popup_camera_calibrate_success">Calibrated successfully. You can open the front camera now.</string>
+    <string name="stop_operate_camera_frequently">You\'re opening the front camera too frequently.</string>
+    <string name="takeback_camera_front_failed">Couldn\'t close front camera. Try again.</string>
+    <string name="popup_camera_front_failed">Couldn\'t open front camera. Try again.</string>
+
+    <!-- Thermal Profiles -->
+    <string name="thermal_title">Thermal Profiles</string>
+    <string name="thermal_summary">Adjust per-app thermal profiles for optimum performance</string>
+    <string name="thermal_default">Default</string>
+    <string name="thermal_benchmark">Benchmark</string>
+    <string name="thermal_browser">Browser</string>
+    <string name="thermal_camera">Camera</string>
+    <string name="thermal_dialer">Dialer</string>
+    <string name="thermal_gaming">Gaming</string>
+    <string name="thermal_streaming">Streaming</string>
+
+    <!-- Per-app refresh rate -->
+    <string name="refresh_title">Per-app refresh rate</string>
+    <string name="refresh_summary">Set the maximum refresh rate for a specific application</string>
+    <string name="refresh_default">Default</string>
+    <string name="refresh_standard">60Hz</string>    
+    <string name="refresh_extreme">120Hz</string>
+    
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Clear speaker</string>
+    <string name="clear_speaker_summary">Play a 30-second audio to clear the speaker</string>
+    <string name="clear_speaker_description">Run this feature once or twice if you find that your speaker is lightly blocked by dust. Set media volume to maximum.\n\nIf the speaker is blocked heavily, run this feature 2–5 times while shaking your device with the speaker facing downwards.\n\nWARNING: Ensure that any headphones are unplugged.</string>
+
+        <!-- DC dimming settings -->
+        <string name="dc_dimming_enable_title">Anti-Flicker Mode</string>
+        <string name="dc_dimming_enable_summary">DC Dimming reduces eye strain in low light conditions (Note: reduce image quality)</string>
+        <string name="dc_dimming_enable_summary_not_supported">DC Dimming is not currently supported by the kernel</string>
+    
+        <!--Display settings fragment -->
+        <string name="display_settings_title">Custom display settings</string>
+        <string name="display_settings_summary">DC Dimming, High Brightness Mode</string>
+    
+        <!-- HBM settings -->
+        <string name="hbm_mode_title">High Brightness Mode</string>
+        <string name="hbm_mode_summary">High Brightness Mode allows the display panel brightness to go above the maximum stock value. Which helps in improving visibility in direct sunlight</string>
+        <string name="hbm_enable_summary_not_supported">HBM is not currently supported by the kernel</string>
+
+
+    <!-- Charge bypass strings -->
+    <string name="charge_bypass_title">Bypass charging</string>
+    <string name="charge_bypass_summary">Enable direct charging, bypassing battery</string>
+    <string name="charge_bypass_warning">Warning: Bypass charging may cause increased device temperature or battery damage. Use with caution.</string>
+    <string name="charge_bypass_unavailable">Bypass charging is not supported on this device</string>
+</resources>

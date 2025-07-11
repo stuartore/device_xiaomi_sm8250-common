@@ -1,0 +1,3 @@
+# Charge Bypass
+allow system_app vendor_sysfs_battery_supply:dir search;
+allow system_app vendor_sysfs_battery_supply:file { getattr open read write };
